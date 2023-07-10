@@ -11,6 +11,8 @@ jobs:
 
     name: publish-release
     runs-on: ubuntu-latest
+    permissions:
+      packages: write
     defaults:
       run:
         working-directory: ./PropertyGuru.FastKey.Utilities
